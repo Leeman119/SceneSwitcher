@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SceneSwitcher", "SceneSwitcher\SceneSwitcher.csproj", "{8F1A17C8-3968-4348-AD2E-88EC10A0C7A5}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SceneSwitcherSetup", "SceneSwitcherSetup\SceneSwitcherSetup.vdproj", "{2230C38F-8533-48E6-97D1-9698005630C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Description = This program will watch the area of the screen specified. The area watched is intended to be the lower right corner of the screen on the secondary monitor of the Kingdom Hall, where the JW logo appears when showing the yeartext. While being watched, if the logo dissapears, a new window named "Scene2" is opened briefly (300ms), long enough for the ODBC feature "Automatic Scene Switcher" to detect it and change accordingly. When the watcher sees the JW logo come back, it will repeat the process, but the window opened will be named "Scene1". 
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F1A17C8-3968-4348-AD2E-88EC10A0C7A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F1A17C8-3968-4348-AD2E-88EC10A0C7A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F1A17C8-3968-4348-AD2E-88EC10A0C7A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F1A17C8-3968-4348-AD2E-88EC10A0C7A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2230C38F-8533-48E6-97D1-9698005630C7}.Debug|Any CPU.ActiveCfg = Debug
+		{2230C38F-8533-48E6-97D1-9698005630C7}.Release|Any CPU.ActiveCfg = Release
+		{2230C38F-8533-48E6-97D1-9698005630C7}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BD11F52-4D42-4900-87A8-0EAFED97C555}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal
